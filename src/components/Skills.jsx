@@ -10,10 +10,12 @@ function Skills({ isDarkMode }) {
    * Defines the technical stack and corresponding proficiency levels.
    */
   const skillData = [
+    { name: "React.js / Vite", level: "90%", icon: "fab fa-react" },
+    { name: "JavaScript (ES6+)", level: "85%", icon: "fab fa-js" },
     { name: "HTML5 / CSS3", level: "95%", icon: "fab fa-html5" },
-    { name: "JavaScript", level: "85%", icon: "fab fa-js" },
     { name: "PHP / MySQL", level: "80%", icon: "fas fa-database" },
     { name: "Java / Android Studio", level: "75%", icon: "fab fa-android" },
+    { name: "Git / Netlify CI-CD", level: "85%", icon: "fab fa-git-alt" },
   ];
 
   return (
